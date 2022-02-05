@@ -95,10 +95,10 @@ F0 "MIDI" 50
 F1 "MIDI.sch" 50
 $EndSheet
 $Comp
-L Connector:Barrel_Jack J?
+L Connector:Barrel_Jack J5
 U 1 1 6226EE84
 P 2375 3675
-F 0 "J?" H 2432 4000 50  0000 C CNN
+F 0 "J5" H 2432 4000 50  0000 C CNN
 F 1 "Barrel_Jack" H 2432 3909 50  0000 C CNN
 F 2 "" H 2425 3635 50  0001 C CNN
 F 3 "~" H 2425 3635 50  0001 C CNN

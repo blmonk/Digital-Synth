@@ -660,7 +660,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 61FDB7D0)
-    (at 74.041 163.83 90)
+    (at 73.025 163.83 90)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /61FCD2FD/61FE42B5)
@@ -698,7 +698,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 61FDF75A)
-    (at 74.041 160.02 270)
+    (at 73.025 160.02 270)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /61FCD2FD/61FE42C7)
@@ -736,7 +736,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 61FDB7F6)
-    (at 76.581 163.83 90)
+    (at 75.565 163.83 90)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /61FCD2FD/61FE42BB)
@@ -774,7 +774,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 61FDB809)
-    (at 76.581 160.02 270)
+    (at 75.565 160.02 270)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /61FCD2FD/61FE42C1)
@@ -2750,7 +2750,7 @@
   )
 
   (module Connector_Audio_Ext:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal (layer F.Cu) (tedit 5C194A94) (tstamp 61FDBBF9)
-    (at 61.595 163.195 180)
+    (at 34.29 152.019 180)
     (descr "M Series, 6.35mm (1/4in) mono jack, switched, with full threaded nose and straight PCB pins, https://www.neutrik.com/en/product/nmj4hfd2")
     (tags "neutrik jack m")
     (path /61FCD2FD/61FE431D)
@@ -2806,8 +2806,8 @@
     )
   )
 
-  (module Connector_Audio_Ext:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal (layer F.Cu) (tedit 5C194A94) (tstamp 61FE694B)
-    (at 61.595 186.055 180)
+  (module Connector_Audio_Ext:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal (layer F.Cu) (tedit 5C194A94) (tstamp 61FDBC20)
+    (at 34.29 174.879 180)
     (descr "M Series, 6.35mm (1/4in) mono jack, switched, with full threaded nose and straight PCB pins, https://www.neutrik.com/en/product/nmj4hfd2")
     (tags "neutrik jack m")
     (path /61FCD2FD/61FE4323)
@@ -5342,7 +5342,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 61FE97BE)
-    (at 99.201 165.1)
+    (at 97.830001 139.229001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61FCD2FD/61FE424D)

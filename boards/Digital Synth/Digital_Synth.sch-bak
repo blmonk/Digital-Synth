@@ -13,24 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3900 5425 0    50   ~ 0
+Text Notes 6025 5200 0    50   ~ 0
 I2S2_CLK
-Text Notes 3900 5525 0    50   ~ 0
+Text Notes 6025 5300 0    50   ~ 0
 I2S2_WS
-Text Notes 3475 4425 0    50   ~ 0
+Text Notes 5600 4200 0    50   ~ 0
 I2S2_SD
-Text GLabel 4675 5400 2    50   Input ~ 0
+Text GLabel 6800 5175 2    50   Input ~ 0
 BCK
-Text GLabel 4675 5500 2    50   Input ~ 0
+Text GLabel 6800 5275 2    50   Input ~ 0
 WS
 Wire Wire Line
-	4575 5400 4675 5400
+	6700 5175 6800 5175
 Wire Wire Line
-	4575 5500 4675 5500
-Text GLabel 3075 4400 0    50   Input ~ 0
+	6700 5275 6800 5275
+Text GLabel 5200 4175 0    50   Input ~ 0
 SD
 Wire Wire Line
-	3075 4400 3175 4400
+	5200 4175 5300 4175
 $Sheet
 S 11275 1025 900  400 
 U 61FCD2FD
@@ -40,12 +40,12 @@ $EndSheet
 $Comp
 L MCU_ST_STM32F4:STM32F446RETx U1
 U 1 1 61EDCA60
-P 3875 4200
-F 0 "U1" H 3875 2311 50  0000 C CNN
-F 1 "STM32F446RETx" H 3875 2220 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 3275 2500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 3875 4200 50  0001 C CNN
-	1    3875 4200
+P 6000 3975
+F 0 "U1" H 6000 2086 50  0000 C CNN
+F 1 "STM32F446RETx" H 6000 1995 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5400 2275 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 6000 3975 50  0001 C CNN
+	1    6000 3975
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -94,4 +94,15 @@ U 6218E6BA
 F0 "MIDI" 50
 F1 "MIDI.sch" 50
 $EndSheet
+$Comp
+L Connector:Barrel_Jack J5
+U 1 1 6226EE84
+P 2375 3675
+F 0 "J5" H 2432 4000 50  0000 C CNN
+F 1 "Barrel_Jack" H 2432 3909 50  0000 C CNN
+F 2 "" H 2425 3635 50  0001 C CNN
+F 3 "~" H 2425 3635 50  0001 C CNN
+	1    2375 3675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

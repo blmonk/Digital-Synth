@@ -121,4 +121,5 @@
   (lib (name Valve)(type KiCad)(uri ${ISC_SYMBOL_DIR}/footprint_kicad/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri ${ISC_SYMBOL_DIR}/footprint_kicad/Varistor.pretty)(options "")(descr ""))
   (lib (name layout)(type KiCad)(uri ${ISC_SYMBOL_DIR}/layout.pretty)(options "")(descr ""))
+  (lib (name Keyswitches)(type KiCad)(uri C:/Users/Bryan/Documents/keyswitches.pretty)(options "")(descr ""))
 )
