@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title "Digital Synth"
 Date "2022-02-03"
 Rev "1.0"
@@ -14,1532 +14,969 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push MX1
 U 1 1 6209630E
-P 2325 2250
-F 0 "SW1" H 2325 2535 50  0000 C CNN
-F 1 "C3" H 2325 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 2325 2450 50  0001 C CNN
-F 3 "" H 2325 2450 50  0001 C CNN
-	1    2325 2250
+P 2800 5025
+F 0 "MX1" H 2800 5310 50  0000 C CNN
+F 1 "C3" H 2800 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 2800 5225 50  0001 C CNN
+F 3 "" H 2800 5225 50  0001 C CNN
+	1    2800 5025
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:D_Small D5
-U 1 1 620988CF
-P 2125 2375
-F 0 "D5" V 2125 2307 50  0000 R CNN
-F 1 "D_Small" V 2080 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2125 2375 50  0001 C CNN
-F 3 "~" V 2125 2375 50  0001 C CNN
-	1    2125 2375
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	2125 2250 2125 2275
+	2600 5025 2600 5050
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push MX3
 U 1 1 620E1CA0
-P 2850 2250
-F 0 "SW3" H 2850 2535 50  0000 C CNN
-F 1 "D3" H 2850 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 2850 2450 50  0001 C CNN
-F 3 "" H 2850 2450 50  0001 C CNN
-	1    2850 2250
+P 3325 5025
+F 0 "MX3" H 3325 5310 50  0000 C CNN
+F 1 "D3" H 3325 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3325 5225 50  0001 C CNN
+F 3 "" H 3325 5225 50  0001 C CNN
+	1    3325 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D7
 U 1 1 620E1CA6
-P 2650 2375
-F 0 "D7" V 2650 2307 50  0000 R CNN
-F 1 "D_Small" V 2605 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2650 2375 50  0001 C CNN
-F 3 "~" V 2650 2375 50  0001 C CNN
-	1    2650 2375
+P 3125 5150
+F 0 "D7" V 3125 5082 50  0000 R CNN
+F 1 "D_Small" V 3080 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3125 5150 50  0001 C CNN
+F 3 "~" V 3125 5150 50  0001 C CNN
+	1    3125 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2650 2250 2650 2275
+	3125 5025 3125 5050
 $Comp
-L Switch:SW_Push SW5
+L Switch:SW_Push MX5
 U 1 1 620E74CE
-P 3375 2250
-F 0 "SW5" H 3375 2535 50  0000 C CNN
-F 1 "E3" H 3375 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 3375 2450 50  0001 C CNN
-F 3 "" H 3375 2450 50  0001 C CNN
-	1    3375 2250
+P 3850 5025
+F 0 "MX5" H 3850 5310 50  0000 C CNN
+F 1 "E3" H 3850 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3850 5225 50  0001 C CNN
+F 3 "" H 3850 5225 50  0001 C CNN
+	1    3850 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D9
 U 1 1 620E74D4
-P 3175 2375
-F 0 "D9" V 3175 2307 50  0000 R CNN
-F 1 "D_Small" V 3130 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3175 2375 50  0001 C CNN
-F 3 "~" V 3175 2375 50  0001 C CNN
-	1    3175 2375
+P 3650 5150
+F 0 "D9" V 3650 5082 50  0000 R CNN
+F 1 "D_Small" V 3605 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3650 5150 50  0001 C CNN
+F 3 "~" V 3650 5150 50  0001 C CNN
+	1    3650 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3175 2250 3175 2275
+	3650 5025 3650 5050
 $Comp
-L Switch:SW_Push SW6
+L Switch:SW_Push MX6
 U 1 1 620E74DB
-P 3900 2250
-F 0 "SW6" H 3900 2535 50  0000 C CNN
-F 1 "F3" H 3900 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 3900 2450 50  0001 C CNN
-F 3 "" H 3900 2450 50  0001 C CNN
-	1    3900 2250
+P 4375 5025
+F 0 "MX6" H 4375 5310 50  0000 C CNN
+F 1 "F3" H 4375 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4375 5225 50  0001 C CNN
+F 3 "" H 4375 5225 50  0001 C CNN
+	1    4375 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D10
 U 1 1 620E74E1
-P 3700 2375
-F 0 "D10" V 3700 2307 50  0000 R CNN
-F 1 "D_Small" V 3655 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3700 2375 50  0001 C CNN
-F 3 "~" V 3700 2375 50  0001 C CNN
-	1    3700 2375
+P 4175 5150
+F 0 "D10" V 4175 5082 50  0000 R CNN
+F 1 "D_Small" V 4130 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4175 5150 50  0001 C CNN
+F 3 "~" V 4175 5150 50  0001 C CNN
+	1    4175 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3700 2250 3700 2275
+	4175 5025 4175 5050
 $Comp
-L Switch:SW_Push SW8
+L Switch:SW_Push MX8
 U 1 1 620F23B2
-P 4425 2250
-F 0 "SW8" H 4425 2535 50  0000 C CNN
-F 1 "G3" H 4425 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 4425 2450 50  0001 C CNN
-F 3 "" H 4425 2450 50  0001 C CNN
-	1    4425 2250
+P 4900 5025
+F 0 "MX8" H 4900 5310 50  0000 C CNN
+F 1 "G3" H 4900 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4900 5225 50  0001 C CNN
+F 3 "" H 4900 5225 50  0001 C CNN
+	1    4900 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D12
 U 1 1 620F23B8
-P 4225 2375
-F 0 "D12" V 4225 2307 50  0000 R CNN
-F 1 "D_Small" V 4180 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4225 2375 50  0001 C CNN
-F 3 "~" V 4225 2375 50  0001 C CNN
-	1    4225 2375
+P 4700 5150
+F 0 "D12" V 4700 5082 50  0000 R CNN
+F 1 "D_Small" V 4655 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4700 5150 50  0001 C CNN
+F 3 "~" V 4700 5150 50  0001 C CNN
+	1    4700 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4225 2250 4225 2275
+	4700 5025 4700 5050
 $Comp
-L Switch:SW_Push SW10
+L Switch:SW_Push MX10
 U 1 1 620F23BF
-P 4950 2250
-F 0 "SW10" H 4950 2535 50  0000 C CNN
-F 1 "A4" H 4950 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 4950 2450 50  0001 C CNN
-F 3 "" H 4950 2450 50  0001 C CNN
-	1    4950 2250
+P 5425 5025
+F 0 "MX10" H 5425 5310 50  0000 C CNN
+F 1 "A4" H 5425 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 5425 5225 50  0001 C CNN
+F 3 "" H 5425 5225 50  0001 C CNN
+	1    5425 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D14
 U 1 1 620F23C5
-P 4750 2375
-F 0 "D14" V 4750 2307 50  0000 R CNN
-F 1 "D_Small" V 4705 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4750 2375 50  0001 C CNN
-F 3 "~" V 4750 2375 50  0001 C CNN
-	1    4750 2375
+P 5225 5150
+F 0 "D14" V 5225 5082 50  0000 R CNN
+F 1 "D_Small" V 5180 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5225 5150 50  0001 C CNN
+F 3 "~" V 5225 5150 50  0001 C CNN
+	1    5225 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4750 2250 4750 2275
+	5225 5025 5225 5050
 $Comp
-L Switch:SW_Push SW12
+L Switch:SW_Push MX12
 U 1 1 620F23CC
-P 5475 2250
-F 0 "SW12" H 5475 2535 50  0000 C CNN
-F 1 "B4" H 5475 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 5475 2450 50  0001 C CNN
-F 3 "" H 5475 2450 50  0001 C CNN
-	1    5475 2250
+P 5950 5025
+F 0 "MX12" H 5950 5310 50  0000 C CNN
+F 1 "B4" H 5950 5219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 5950 5225 50  0001 C CNN
+F 3 "" H 5950 5225 50  0001 C CNN
+	1    5950 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D16
 U 1 1 620F23D2
-P 5275 2375
-F 0 "D16" V 5275 2307 50  0000 R CNN
-F 1 "D_Small" V 5230 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5275 2375 50  0001 C CNN
-F 3 "~" V 5275 2375 50  0001 C CNN
-	1    5275 2375
+P 5750 5150
+F 0 "D16" V 5750 5082 50  0000 R CNN
+F 1 "D_Small" V 5705 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5750 5150 50  0001 C CNN
+F 3 "~" V 5750 5150 50  0001 C CNN
+	1    5750 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5275 2250 5275 2275
+	5750 5025 5750 5050
 $Comp
-L Switch:SW_Push SW13
+L Switch:SW_Push MX13
 U 1 1 620F23D9
-P 6000 2250
-F 0 "SW13" H 6000 2535 50  0000 C CNN
-F 1 "C4" H 6000 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 6000 2450 50  0001 C CNN
-F 3 "" H 6000 2450 50  0001 C CNN
-	1    6000 2250
+P 2800 3700
+F 0 "MX13" H 2800 3985 50  0000 C CNN
+F 1 "C4" H 2800 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 2800 3900 50  0001 C CNN
+F 3 "" H 2800 3900 50  0001 C CNN
+	1    2800 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D17
 U 1 1 620F23DF
-P 5800 2375
-F 0 "D17" V 5800 2307 50  0000 R CNN
-F 1 "D_Small" V 5755 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5800 2375 50  0001 C CNN
-F 3 "~" V 5800 2375 50  0001 C CNN
-	1    5800 2375
+P 2600 3825
+F 0 "D17" V 2600 3757 50  0000 R CNN
+F 1 "D_Small" V 2555 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2600 3825 50  0001 C CNN
+F 3 "~" V 2600 3825 50  0001 C CNN
+	1    2600 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5800 2250 5800 2275
+	2600 3700 2600 3725
 $Comp
-L Switch:SW_Push SW15
+L Switch:SW_Push MX15
 U 1 1 6210FE1C
-P 6525 2250
-F 0 "SW15" H 6525 2535 50  0000 C CNN
-F 1 "D4" H 6525 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 6525 2450 50  0001 C CNN
-F 3 "" H 6525 2450 50  0001 C CNN
-	1    6525 2250
+P 3325 3700
+F 0 "MX15" H 3325 3985 50  0000 C CNN
+F 1 "D4" H 3325 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3325 3900 50  0001 C CNN
+F 3 "" H 3325 3900 50  0001 C CNN
+	1    3325 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D19
 U 1 1 6210FE22
-P 6325 2375
-F 0 "D19" V 6325 2307 50  0000 R CNN
-F 1 "D_Small" V 6280 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6325 2375 50  0001 C CNN
-F 3 "~" V 6325 2375 50  0001 C CNN
-	1    6325 2375
+P 3125 3825
+F 0 "D19" V 3125 3757 50  0000 R CNN
+F 1 "D_Small" V 3080 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3125 3825 50  0001 C CNN
+F 3 "~" V 3125 3825 50  0001 C CNN
+	1    3125 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6325 2250 6325 2275
+	3125 3700 3125 3725
 $Comp
-L Switch:SW_Push SW17
+L Switch:SW_Push MX17
 U 1 1 6210FE29
-P 7050 2250
-F 0 "SW17" H 7050 2535 50  0000 C CNN
-F 1 "E4" H 7050 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 7050 2450 50  0001 C CNN
-F 3 "" H 7050 2450 50  0001 C CNN
-	1    7050 2250
+P 3850 3700
+F 0 "MX17" H 3850 3985 50  0000 C CNN
+F 1 "E4" H 3850 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D21
 U 1 1 6210FE2F
-P 6850 2375
-F 0 "D21" V 6850 2307 50  0000 R CNN
-F 1 "D_Small" V 6805 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6850 2375 50  0001 C CNN
-F 3 "~" V 6850 2375 50  0001 C CNN
-	1    6850 2375
+P 3650 3825
+F 0 "D21" V 3650 3757 50  0000 R CNN
+F 1 "D_Small" V 3605 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3650 3825 50  0001 C CNN
+F 3 "~" V 3650 3825 50  0001 C CNN
+	1    3650 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6850 2250 6850 2275
+	3650 3700 3650 3725
 $Comp
-L Switch:SW_Push SW18
+L Switch:SW_Push MX18
 U 1 1 6210FE36
-P 7575 2250
-F 0 "SW18" H 7575 2535 50  0000 C CNN
-F 1 "F4" H 7575 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 7575 2450 50  0001 C CNN
-F 3 "" H 7575 2450 50  0001 C CNN
-	1    7575 2250
+P 4375 3700
+F 0 "MX18" H 4375 3985 50  0000 C CNN
+F 1 "F4" H 4375 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4375 3900 50  0001 C CNN
+F 3 "" H 4375 3900 50  0001 C CNN
+	1    4375 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D22
 U 1 1 6210FE3C
-P 7375 2375
-F 0 "D22" V 7375 2307 50  0000 R CNN
-F 1 "D_Small" V 7330 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7375 2375 50  0001 C CNN
-F 3 "~" V 7375 2375 50  0001 C CNN
-	1    7375 2375
+P 4175 3825
+F 0 "D22" V 4175 3757 50  0000 R CNN
+F 1 "D_Small" V 4130 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4175 3825 50  0001 C CNN
+F 3 "~" V 4175 3825 50  0001 C CNN
+	1    4175 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7375 2250 7375 2275
+	4175 3700 4175 3725
 $Comp
-L Switch:SW_Push SW20
+L Switch:SW_Push MX20
 U 1 1 6210FE43
-P 8100 2250
-F 0 "SW20" H 8100 2535 50  0000 C CNN
-F 1 "G4" H 8100 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 8100 2450 50  0001 C CNN
-F 3 "" H 8100 2450 50  0001 C CNN
-	1    8100 2250
+P 4900 3700
+F 0 "MX20" H 4900 3985 50  0000 C CNN
+F 1 "G4" H 4900 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4900 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D24
 U 1 1 6210FE49
-P 7900 2375
-F 0 "D24" V 7900 2307 50  0000 R CNN
-F 1 "D_Small" V 7855 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7900 2375 50  0001 C CNN
-F 3 "~" V 7900 2375 50  0001 C CNN
-	1    7900 2375
+P 4700 3825
+F 0 "D24" V 4700 3757 50  0000 R CNN
+F 1 "D_Small" V 4655 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4700 3825 50  0001 C CNN
+F 3 "~" V 4700 3825 50  0001 C CNN
+	1    4700 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7900 2250 7900 2275
+	4700 3700 4700 3725
 $Comp
-L Switch:SW_Push SW22
-U 1 1 6210FE50
-P 8625 2250
-F 0 "SW22" H 8625 2535 50  0000 C CNN
-F 1 "A5" H 8625 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 8625 2450 50  0001 C CNN
-F 3 "" H 8625 2450 50  0001 C CNN
-	1    8625 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D26
-U 1 1 6210FE56
-P 8425 2375
-F 0 "D26" V 8425 2307 50  0000 R CNN
-F 1 "D_Small" V 8380 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8425 2375 50  0001 C CNN
-F 3 "~" V 8425 2375 50  0001 C CNN
-	1    8425 2375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8425 2250 8425 2275
-$Comp
-L Switch:SW_Push SW24
-U 1 1 6210FE5D
-P 9150 2250
-F 0 "SW24" H 9150 2535 50  0000 C CNN
-F 1 "B5" H 9150 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 9150 2450 50  0001 C CNN
-F 3 "" H 9150 2450 50  0001 C CNN
-	1    9150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D28
-U 1 1 6210FE63
-P 8950 2375
-F 0 "D28" V 8950 2307 50  0000 R CNN
-F 1 "D_Small" V 8905 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8950 2375 50  0001 C CNN
-F 3 "~" V 8950 2375 50  0001 C CNN
-	1    8950 2375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8950 2250 8950 2275
-$Comp
-L Switch:SW_Push SW25
-U 1 1 6210FE6A
-P 9675 2250
-F 0 "SW25" H 9675 2535 50  0000 C CNN
-F 1 "C5" H 9675 2444 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 9675 2450 50  0001 C CNN
-F 3 "" H 9675 2450 50  0001 C CNN
-	1    9675 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D29
-U 1 1 6210FE70
-P 9475 2375
-F 0 "D29" V 9475 2307 50  0000 R CNN
-F 1 "D_Small" V 9430 2307 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9475 2375 50  0001 C CNN
-F 3 "~" V 9475 2375 50  0001 C CNN
-	1    9475 2375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9475 2250 9475 2275
-$Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push MX2
 U 1 1 6212547E
-P 2850 1550
-F 0 "SW2" H 2850 1835 50  0000 C CNN
-F 1 "C#3" H 2850 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 2850 1750 50  0001 C CNN
-F 3 "" H 2850 1750 50  0001 C CNN
-	1    2850 1550
+P 2800 4375
+F 0 "MX2" H 2800 4660 50  0000 C CNN
+F 1 "C#3" H 2800 4569 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 2800 4575 50  0001 C CNN
+F 3 "" H 2800 4575 50  0001 C CNN
+	1    2800 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1550 2650 1575
+	2600 4375 2600 4400
 $Comp
-L Switch:SW_Push SW4
+L Switch:SW_Push MX4
 U 1 1 621272B2
-P 3375 1550
-F 0 "SW4" H 3375 1835 50  0000 C CNN
-F 1 "D#3" H 3375 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 3375 1750 50  0001 C CNN
-F 3 "" H 3375 1750 50  0001 C CNN
-	1    3375 1550
+P 3325 4375
+F 0 "MX4" H 3325 4660 50  0000 C CNN
+F 1 "D#3" H 3325 4569 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3325 4575 50  0001 C CNN
+F 3 "" H 3325 4575 50  0001 C CNN
+	1    3325 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3175 1550 3175 1575
+	3125 4375 3125 4400
 $Comp
-L Switch:SW_Push SW7
+L Switch:SW_Push MX7
 U 1 1 62129289
-P 4425 1550
-F 0 "SW7" H 4425 1835 50  0000 C CNN
-F 1 "F#3" H 4425 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 4425 1750 50  0001 C CNN
-F 3 "" H 4425 1750 50  0001 C CNN
-	1    4425 1550
+P 3850 4375
+F 0 "MX7" H 3850 4660 50  0000 C CNN
+F 1 "F#3" H 3850 4569 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3850 4575 50  0001 C CNN
+F 3 "" H 3850 4575 50  0001 C CNN
+	1    3850 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4225 1550 4225 1575
+	3650 4375 3650 4400
 $Comp
-L Switch:SW_Push SW9
+L Switch:SW_Push MX9
 U 1 1 6212AEBC
-P 4950 1550
-F 0 "SW9" H 4950 1835 50  0000 C CNN
-F 1 "G#3" H 4950 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 4950 1750 50  0001 C CNN
-F 3 "" H 4950 1750 50  0001 C CNN
-	1    4950 1550
+P 4375 4375
+F 0 "MX9" H 4375 4660 50  0000 C CNN
+F 1 "G#3" H 4375 4569 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4375 4575 50  0001 C CNN
+F 3 "" H 4375 4575 50  0001 C CNN
+	1    4375 4375
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D13
 U 1 1 6212AEC2
-P 4750 1675
-F 0 "D13" V 4750 1607 50  0000 R CNN
-F 1 "D_Small" V 4705 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4750 1675 50  0001 C CNN
-F 3 "~" V 4750 1675 50  0001 C CNN
-	1    4750 1675
+P 4175 4500
+F 0 "D13" V 4175 4432 50  0000 R CNN
+F 1 "D_Small" V 4130 4432 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4175 4500 50  0001 C CNN
+F 3 "~" V 4175 4500 50  0001 C CNN
+	1    4175 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4750 1550 4750 1575
+	4175 4375 4175 4400
 $Comp
-L Switch:SW_Push SW11
+L Switch:SW_Push MX11
 U 1 1 6212C747
-P 5475 1550
-F 0 "SW11" H 5475 1835 50  0000 C CNN
-F 1 "A#4" H 5475 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 5475 1750 50  0001 C CNN
-F 3 "" H 5475 1750 50  0001 C CNN
-	1    5475 1550
+P 4900 4375
+F 0 "MX11" H 4900 4660 50  0000 C CNN
+F 1 "A#4" H 4900 4569 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4900 4575 50  0001 C CNN
+F 3 "" H 4900 4575 50  0001 C CNN
+	1    4900 4375
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D15
 U 1 1 6212C74D
-P 5275 1675
-F 0 "D15" V 5275 1607 50  0000 R CNN
-F 1 "D_Small" V 5230 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5275 1675 50  0001 C CNN
-F 3 "~" V 5275 1675 50  0001 C CNN
-	1    5275 1675
+P 4700 4500
+F 0 "D15" V 4700 4432 50  0000 R CNN
+F 1 "D_Small" V 4655 4432 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4700 4500 50  0001 C CNN
+F 3 "~" V 4700 4500 50  0001 C CNN
+	1    4700 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5275 1550 5275 1575
+	4700 4375 4700 4400
 $Comp
-L Switch:SW_Push SW14
+L Switch:SW_Push MX14
 U 1 1 62139555
-P 6525 1550
-F 0 "SW14" H 6525 1835 50  0000 C CNN
-F 1 "C#4" H 6525 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 6525 1750 50  0001 C CNN
-F 3 "" H 6525 1750 50  0001 C CNN
-	1    6525 1550
+P 2800 3025
+F 0 "MX14" H 2800 3310 50  0000 C CNN
+F 1 "C#4" H 2800 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 2800 3225 50  0001 C CNN
+F 3 "" H 2800 3225 50  0001 C CNN
+	1    2800 3025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D18
 U 1 1 6213955B
-P 6325 1675
-F 0 "D18" V 6325 1607 50  0000 R CNN
-F 1 "D_Small" V 6280 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6325 1675 50  0001 C CNN
-F 3 "~" V 6325 1675 50  0001 C CNN
-	1    6325 1675
+P 2600 3150
+F 0 "D18" V 2600 3082 50  0000 R CNN
+F 1 "D_Small" V 2555 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2600 3150 50  0001 C CNN
+F 3 "~" V 2600 3150 50  0001 C CNN
+	1    2600 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6325 1550 6325 1575
+	2600 3025 2600 3050
 $Comp
-L Switch:SW_Push SW16
+L Switch:SW_Push MX16
 U 1 1 62139562
-P 7050 1550
-F 0 "SW16" H 7050 1835 50  0000 C CNN
-F 1 "D#4" H 7050 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 7050 1750 50  0001 C CNN
-F 3 "" H 7050 1750 50  0001 C CNN
-	1    7050 1550
+P 3325 3025
+F 0 "MX16" H 3325 3310 50  0000 C CNN
+F 1 "D#4" H 3325 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3325 3225 50  0001 C CNN
+F 3 "" H 3325 3225 50  0001 C CNN
+	1    3325 3025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D20
 U 1 1 62139568
-P 6850 1675
-F 0 "D20" V 6850 1607 50  0000 R CNN
-F 1 "D_Small" V 6805 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6850 1675 50  0001 C CNN
-F 3 "~" V 6850 1675 50  0001 C CNN
-	1    6850 1675
+P 3125 3150
+F 0 "D20" V 3125 3082 50  0000 R CNN
+F 1 "D_Small" V 3080 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3125 3150 50  0001 C CNN
+F 3 "~" V 3125 3150 50  0001 C CNN
+	1    3125 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6850 1550 6850 1575
+	3125 3025 3125 3050
 $Comp
-L Switch:SW_Push SW19
+L Switch:SW_Push MX19
 U 1 1 6213956F
-P 8100 1550
-F 0 "SW19" H 8100 1835 50  0000 C CNN
-F 1 "F#4" H 8100 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 8100 1750 50  0001 C CNN
-F 3 "" H 8100 1750 50  0001 C CNN
-	1    8100 1550
+P 3850 3025
+F 0 "MX19" H 3850 3310 50  0000 C CNN
+F 1 "F#4" H 3850 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 3850 3225 50  0001 C CNN
+F 3 "" H 3850 3225 50  0001 C CNN
+	1    3850 3025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D23
 U 1 1 62139575
-P 7900 1675
-F 0 "D23" V 7900 1607 50  0000 R CNN
-F 1 "D_Small" V 7855 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7900 1675 50  0001 C CNN
-F 3 "~" V 7900 1675 50  0001 C CNN
-	1    7900 1675
+P 3650 3150
+F 0 "D23" V 3650 3082 50  0000 R CNN
+F 1 "D_Small" V 3605 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3650 3150 50  0001 C CNN
+F 3 "~" V 3650 3150 50  0001 C CNN
+	1    3650 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7900 1550 7900 1575
+	3650 3025 3650 3050
 $Comp
-L Switch:SW_Push SW21
+L Switch:SW_Push MX21
 U 1 1 6213957C
-P 8625 1550
-F 0 "SW21" H 8625 1835 50  0000 C CNN
-F 1 "G#4" H 8625 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 8625 1750 50  0001 C CNN
-F 3 "" H 8625 1750 50  0001 C CNN
-	1    8625 1550
+P 4375 3025
+F 0 "MX21" H 4375 3310 50  0000 C CNN
+F 1 "G#4" H 4375 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4375 3225 50  0001 C CNN
+F 3 "" H 4375 3225 50  0001 C CNN
+	1    4375 3025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D25
 U 1 1 62139582
-P 8425 1675
-F 0 "D25" V 8425 1607 50  0000 R CNN
-F 1 "D_Small" V 8380 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8425 1675 50  0001 C CNN
-F 3 "~" V 8425 1675 50  0001 C CNN
-	1    8425 1675
+P 4175 3150
+F 0 "D25" V 4175 3082 50  0000 R CNN
+F 1 "D_Small" V 4130 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4175 3150 50  0001 C CNN
+F 3 "~" V 4175 3150 50  0001 C CNN
+	1    4175 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8425 1550 8425 1575
+	4175 3025 4175 3050
 $Comp
-L Switch:SW_Push SW23
+L Switch:SW_Push MX23
 U 1 1 62139589
-P 9150 1550
-F 0 "SW23" H 9150 1835 50  0000 C CNN
-F 1 "A#4" H 9150 1744 50  0000 C CNN
-F 2 "Keyswitches:Kailh_socket_MX" H 9150 1750 50  0001 C CNN
-F 3 "" H 9150 1750 50  0001 C CNN
-	1    9150 1550
+P 4900 3025
+F 0 "MX23" H 4900 3310 50  0000 C CNN
+F 1 "A#4" H 4900 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 4900 3225 50  0001 C CNN
+F 3 "" H 4900 3225 50  0001 C CNN
+	1    4900 3025
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D27
 U 1 1 6213958F
-P 8950 1675
-F 0 "D27" V 8950 1607 50  0000 R CNN
-F 1 "D_Small" V 8905 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8950 1675 50  0001 C CNN
-F 3 "~" V 8950 1675 50  0001 C CNN
-	1    8950 1675
+P 4700 3150
+F 0 "D27" V 4700 3082 50  0000 R CNN
+F 1 "D_Small" V 4655 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4700 3150 50  0001 C CNN
+F 3 "~" V 4700 3150 50  0001 C CNN
+	1    4700 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8950 1550 8950 1575
-Text GLabel 1800 2475 0    50   Input ~ 0
+	4700 3025 4700 3050
+Text GLabel 2150 5250 0    50   Input ~ 0
 row0
-Wire Wire Line
-	1800 2475 2125 2475
-Connection ~ 2125 2475
-Connection ~ 2650 2475
-Connection ~ 3175 2475
-Wire Wire Line
-	3175 2475 3700 2475
-Connection ~ 3700 2475
-Wire Wire Line
-	3700 2475 4225 2475
-Connection ~ 4225 2475
-Wire Wire Line
-	4225 2475 4750 2475
-Connection ~ 4750 2475
-Wire Wire Line
-	4750 2475 5275 2475
-Connection ~ 5275 2475
-Wire Wire Line
-	5275 2475 5800 2475
-Connection ~ 5800 2475
-Wire Wire Line
-	5800 2475 6325 2475
-Connection ~ 6325 2475
-Wire Wire Line
-	6325 2475 6850 2475
-Connection ~ 6850 2475
-Wire Wire Line
-	6850 2475 7375 2475
-Connection ~ 7375 2475
-Wire Wire Line
-	7375 2475 7900 2475
-Connection ~ 7900 2475
-Wire Wire Line
-	7900 2475 8425 2475
-Connection ~ 8425 2475
-Wire Wire Line
-	8425 2475 8950 2475
-Connection ~ 8950 2475
-Wire Wire Line
-	8950 2475 9475 2475
-Text GLabel 1800 1775 0    50   Input ~ 0
+Text GLabel 2150 4600 0    50   Input ~ 0
 row1
-Wire Wire Line
-	1800 1775 2650 1775
-Connection ~ 2650 1775
-Wire Wire Line
-	2650 1775 3175 1775
-Connection ~ 3175 1775
-Wire Wire Line
-	3175 1775 4225 1775
-Connection ~ 4225 1775
-Wire Wire Line
-	4225 1775 4750 1775
-Connection ~ 4750 1775
-Wire Wire Line
-	4750 1775 5275 1775
-Connection ~ 5275 1775
-Wire Wire Line
-	5275 1775 6325 1775
-Connection ~ 6325 1775
-Wire Wire Line
-	6325 1775 6850 1775
-Connection ~ 6850 1775
-Wire Wire Line
-	6850 1775 7900 1775
-Connection ~ 7900 1775
-Wire Wire Line
-	7900 1775 8425 1775
-Connection ~ 8425 1775
-Wire Wire Line
-	8425 1775 8950 1775
-Text GLabel 2525 1200 1    50   Input ~ 0
-col0
-Text GLabel 3050 1200 1    50   Input ~ 0
-col1
-Wire Wire Line
-	3050 1200 3050 1550
-Connection ~ 3050 1550
-Wire Wire Line
-	3050 1550 3050 2250
-Wire Wire Line
-	2525 1200 2525 2250
-Wire Wire Line
-	2125 2475 2650 2475
-Wire Wire Line
-	2650 2475 3175 2475
-Text GLabel 4625 1200 1    50   Input ~ 0
-col4
-Text GLabel 5150 1200 1    50   Input ~ 0
-col5
-Text GLabel 5675 1200 1    50   Input ~ 0
-col6
-Text GLabel 6725 1200 1    50   Input ~ 0
-col8
-Text GLabel 7250 1200 1    50   Input ~ 0
-col9
-Text GLabel 8825 1225 1    50   Input ~ 0
-col10
-Text GLabel 9350 1225 1    50   Input ~ 0
-col11
-Text GLabel 9875 1225 1    50   Input ~ 0
-col12
-Text GLabel 3575 1200 1    50   Input ~ 0
-col2
-Text GLabel 4100 1200 1    50   Input ~ 0
-col3
-Text GLabel 6200 1200 1    50   Input ~ 0
-col7
-Wire Wire Line
-	6200 1200 6200 2250
-Wire Wire Line
-	6725 1200 6725 1550
-Connection ~ 6725 1550
-Wire Wire Line
-	6725 1550 6725 2250
-Wire Wire Line
-	7250 1200 7250 1550
-Connection ~ 7250 1550
-Wire Wire Line
-	7250 1550 7250 2250
-Wire Wire Line
-	3575 1200 3575 1550
-Connection ~ 3575 1550
-Wire Wire Line
-	3575 1550 3575 2250
-Wire Wire Line
-	4100 1200 4100 2250
-Wire Wire Line
-	4625 1200 4625 1550
-Connection ~ 4625 1550
-Wire Wire Line
-	4625 1550 4625 2250
-Wire Wire Line
-	5150 1200 5150 1550
-Connection ~ 5150 1550
-Wire Wire Line
-	5150 1550 5150 2250
-Wire Wire Line
-	5675 1200 5675 1550
-Connection ~ 5675 1550
-Wire Wire Line
-	5675 1550 5675 2250
-Text GLabel 7775 1200 1    50   Input ~ 0
-col8
-Text GLabel 8300 1200 1    50   Input ~ 0
-col9
-Wire Wire Line
-	7775 1200 7775 2250
-Wire Wire Line
-	8300 1200 8300 1550
-Connection ~ 8300 1550
-Wire Wire Line
-	8300 1550 8300 2250
-Wire Wire Line
-	8825 1225 8825 1550
-Connection ~ 8825 1550
-Wire Wire Line
-	8825 1550 8825 2250
-Wire Wire Line
-	9350 1225 9350 1550
-Connection ~ 9350 1550
-Wire Wire Line
-	9350 1550 9350 2250
-Wire Wire Line
-	9875 1225 9875 2250
 $Comp
 L device:D_Small D11
 U 1 1 6212928F
-P 4225 1675
-F 0 "D11" V 4225 1607 50  0000 R CNN
-F 1 "D_Small" V 4180 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4225 1675 50  0001 C CNN
-F 3 "~" V 4225 1675 50  0001 C CNN
-	1    4225 1675
+P 3650 4500
+F 0 "D11" V 3650 4432 50  0000 R CNN
+F 1 "D_Small" V 3605 4432 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3650 4500 50  0001 C CNN
+F 3 "~" V 3650 4500 50  0001 C CNN
+	1    3650 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L device:D_Small D8
 U 1 1 621272B8
-P 3175 1675
-F 0 "D8" V 3175 1607 50  0000 R CNN
-F 1 "D_Small" V 3130 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3175 1675 50  0001 C CNN
-F 3 "~" V 3175 1675 50  0001 C CNN
-	1    3175 1675
+P 3125 4500
+F 0 "D8" V 3125 4432 50  0000 R CNN
+F 1 "D_Small" V 3080 4432 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3125 4500 50  0001 C CNN
+F 3 "~" V 3125 4500 50  0001 C CNN
+	1    3125 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L device:D_Small D6
 U 1 1 62125484
-P 2650 1675
-F 0 "D6" V 2650 1607 50  0000 R CNN
-F 1 "D_Small" V 2605 1607 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2650 1675 50  0001 C CNN
-F 3 "~" V 2650 1675 50  0001 C CNN
-	1    2650 1675
+P 2600 4500
+F 0 "D6" V 2600 4432 50  0000 R CNN
+F 1 "D_Small" V 2555 4432 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2600 4500 50  0001 C CNN
+F 3 "~" V 2600 4500 50  0001 C CNN
+	1    2600 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW26
-U 1 1 6200EFD9
-P 2100 4725
-F 0 "SW26" H 2100 5010 50  0000 C CNN
-F 1 "C3" H 2100 4919 50  0000 C CNN
-F 2 "" H 2100 4925 50  0001 C CNN
-F 3 "" H 2100 4925 50  0001 C CNN
-	1    2100 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D31
-U 1 1 6200EFDF
-P 1900 4850
-F 0 "D31" V 1900 4782 50  0000 R CNN
-F 1 "D_Small" V 1855 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1900 4850 50  0001 C CNN
-F 3 "~" V 1900 4850 50  0001 C CNN
-	1    1900 4850
+L device:D_Small D5
+U 1 1 620988CF
+P 2600 5150
+F 0 "D5" V 2600 5082 50  0000 R CNN
+F 1 "D_Small" V 2555 5082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2600 5150 50  0001 C CNN
+F 3 "~" V 2600 5150 50  0001 C CNN
+	1    2600 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 4725 1900 4750
+	5225 3025 5225 3050
 $Comp
-L Switch:SW_Push SW29
-U 1 1 6200EFE6
-P 2625 4725
-F 0 "SW29" H 2625 5010 50  0000 C CNN
-F 1 "D3" H 2625 4919 50  0000 C CNN
-F 2 "" H 2625 4925 50  0001 C CNN
-F 3 "" H 2625 4925 50  0001 C CNN
-	1    2625 4725
+L device:D_Small D29
+U 1 1 6210FE70
+P 5225 3150
+F 0 "D29" V 5225 3082 50  0000 R CNN
+F 1 "D_Small" V 5180 3082 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5225 3150 50  0001 C CNN
+F 3 "~" V 5225 3150 50  0001 C CNN
+	1    5225 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push MX25
+U 1 1 6210FE6A
+P 5425 3025
+F 0 "MX25" H 5425 3310 50  0000 C CNN
+F 1 "C5" H 5425 3219 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 5425 3225 50  0001 C CNN
+F 3 "" H 5425 3225 50  0001 C CNN
+	1    5425 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 3700 5225 3725
+$Comp
+L device:D_Small D26
+U 1 1 6210FE56
+P 5225 3825
+F 0 "D26" V 5225 3757 50  0000 R CNN
+F 1 "D_Small" V 5180 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5225 3825 50  0001 C CNN
+F 3 "~" V 5225 3825 50  0001 C CNN
+	1    5225 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push MX22
+U 1 1 6210FE50
+P 5425 3700
+F 0 "MX22" H 5425 3985 50  0000 C CNN
+F 1 "A5" H 5425 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 5425 3900 50  0001 C CNN
+F 3 "" H 5425 3900 50  0001 C CNN
+	1    5425 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3700 5750 3725
+$Comp
+L device:D_Small D28
+U 1 1 6210FE63
+P 5750 3825
+F 0 "D28" V 5750 3757 50  0000 R CNN
+F 1 "D_Small" V 5705 3757 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5750 3825 50  0001 C CNN
+F 3 "~" V 5750 3825 50  0001 C CNN
+	1    5750 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push MX24
+U 1 1 6210FE5D
+P 5950 3700
+F 0 "MX24" H 5950 3985 50  0000 C CNN
+F 1 "B5" H 5950 3894 50  0000 C CNN
+F 2 "Keyswitches:Kailh_socket_MX" H 5950 3900 50  0001 C CNN
+F 3 "" H 5950 3900 50  0001 C CNN
+	1    5950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5250 2600 5250
+Connection ~ 2600 5250
+Wire Wire Line
+	2600 5250 3125 5250
+Connection ~ 3125 5250
+Wire Wire Line
+	3125 5250 3650 5250
+Connection ~ 3650 5250
+Wire Wire Line
+	3650 5250 4175 5250
+Connection ~ 4175 5250
+Wire Wire Line
+	4175 5250 4700 5250
+Connection ~ 4700 5250
+Wire Wire Line
+	4700 5250 5225 5250
+Connection ~ 5225 5250
+Wire Wire Line
+	5225 5250 5750 5250
+Wire Wire Line
+	2150 4600 2600 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	2600 4600 3125 4600
+Connection ~ 3125 4600
+Wire Wire Line
+	3125 4600 3650 4600
+Connection ~ 3650 4600
+Wire Wire Line
+	3650 4600 4175 4600
+Connection ~ 4175 4600
+Wire Wire Line
+	4175 4600 4700 4600
+Text GLabel 2150 3925 0    50   Input ~ 0
+row2
+Text GLabel 2150 3250 0    50   Input ~ 0
+row3
+Wire Wire Line
+	2150 3925 2600 3925
+Connection ~ 2600 3925
+Wire Wire Line
+	2600 3925 3125 3925
+Connection ~ 3125 3925
+Wire Wire Line
+	3125 3925 3650 3925
+Connection ~ 3650 3925
+Wire Wire Line
+	3650 3925 4175 3925
+Connection ~ 4175 3925
+Wire Wire Line
+	4175 3925 4700 3925
+Connection ~ 4700 3925
+Wire Wire Line
+	4700 3925 5225 3925
+Wire Wire Line
+	2150 3250 2600 3250
+Connection ~ 2600 3250
+Wire Wire Line
+	2600 3250 3125 3250
+Connection ~ 3125 3250
+Wire Wire Line
+	3125 3250 3650 3250
+Connection ~ 3650 3250
+Wire Wire Line
+	3650 3250 4175 3250
+Connection ~ 4175 3250
+Wire Wire Line
+	4175 3250 4700 3250
+Wire Wire Line
+	3000 2500 3000 3025
+Connection ~ 3000 3025
+Wire Wire Line
+	3000 3025 3000 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3000 3700 3000 4375
+Connection ~ 3000 4375
+Wire Wire Line
+	3000 4375 3000 5025
+Wire Wire Line
+	3525 2500 3525 3025
+Connection ~ 3525 3025
+Wire Wire Line
+	3525 3025 3525 3700
+Connection ~ 3525 3700
+Wire Wire Line
+	3525 3700 3525 4375
+Connection ~ 3525 4375
+Wire Wire Line
+	3525 4375 3525 5025
+Wire Wire Line
+	4050 2500 4050 3025
+Connection ~ 4050 3025
+Wire Wire Line
+	4050 3025 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	4050 3700 4050 4375
+Connection ~ 4050 4375
+Wire Wire Line
+	4050 4375 4050 5025
+Wire Wire Line
+	4575 2500 4575 3025
+Connection ~ 4575 3025
+Wire Wire Line
+	4575 3025 4575 3700
+Connection ~ 4575 3700
+Wire Wire Line
+	4575 3700 4575 4375
+Connection ~ 4575 4375
+Wire Wire Line
+	4575 4375 4575 5025
+Wire Wire Line
+	5100 2500 5100 3025
+Connection ~ 5100 3025
+Wire Wire Line
+	5100 3025 5100 3700
+Connection ~ 5100 3700
+Wire Wire Line
+	5100 3700 5100 4375
+Connection ~ 5100 4375
+Wire Wire Line
+	5100 4375 5100 5025
+Wire Wire Line
+	5625 2500 5625 3025
+Connection ~ 5625 3700
+Wire Wire Line
+	6150 2500 6150 3700
+Connection ~ 6150 3700
+Wire Wire Line
+	6150 3700 6150 5025
+Connection ~ 5625 3025
+Wire Wire Line
+	5625 3025 5625 3700
+Wire Wire Line
+	5625 3700 5625 5025
+Wire Wire Line
+	4700 3250 5225 3250
+Connection ~ 4700 3250
+Wire Wire Line
+	5225 3925 5750 3925
+Connection ~ 5225 3925
+$Comp
+L power:+3V3 #PWR035
+U 1 1 626F8A42
+P 8825 2825
+F 0 "#PWR035" H 8825 2675 50  0001 C CNN
+F 1 "+3V3" H 8840 2998 50  0000 C CNN
+F 2 "" H 8825 2825 50  0001 C CNN
+F 3 "" H 8825 2825 50  0001 C CNN
+	1    8825 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 626F97B5
+P 8825 5450
+F 0 "#PWR036" H 8825 5200 50  0001 C CNN
+F 1 "GND" H 8830 5277 50  0000 C CNN
+F 2 "" H 8825 5450 50  0001 C CNN
+F 3 "" H 8825 5450 50  0001 C CNN
+	1    8825 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9475 3900 2    50   Input ~ 0
+SPI_AVR_MOSI
+Text GLabel 9475 3700 2    50   Input ~ 0
+SPI_AVR_MISO
+Text GLabel 9475 4000 2    50   Input ~ 0
+SPI_AVR_SCK
+Text GLabel 9475 4100 2    50   Input ~ 0
+SPI_AVR_CS
+Text GLabel 4575 2500 1    50   Input ~ 0
+col3
+Text GLabel 4050 2500 1    50   Input ~ 0
+col2
+Text GLabel 6150 2500 1    50   Input ~ 0
+col6
+Text GLabel 5625 2500 1    50   Input ~ 0
+col5
+Text GLabel 5100 2500 1    50   Input ~ 0
+col4
+Text GLabel 3525 2500 1    50   Input ~ 0
+col1
+Text GLabel 3000 2500 1    50   Input ~ 0
+col0
+Text GLabel 9475 4700 2    50   Input ~ 0
+col3
+Text GLabel 9475 4600 2    50   Input ~ 0
+col2
+Text GLabel 9475 5000 2    50   Input ~ 0
+col6
+Text GLabel 9475 4900 2    50   Input ~ 0
+col5
+Text GLabel 9475 4800 2    50   Input ~ 0
+col4
+Text GLabel 9475 4500 2    50   Input ~ 0
+col1
+Text GLabel 9475 4400 2    50   Input ~ 0
+col0
+Text GLabel 9475 3500 2    50   Input ~ 0
+row0
+Text GLabel 9475 3600 2    50   Input ~ 0
+row1
+Text GLabel 9475 3800 2    50   Input ~ 0
+row2
+Text GLabel 9475 4200 2    50   Input ~ 0
+row3
+Text GLabel 9475 5100 2    50   Input ~ 0
+NRST
+$Comp
+L Connector:Conn_01x06_Male J8
+U 1 1 6233FDFE
+P 7375 2325
+F 0 "J8" H 7483 2706 50  0000 C CNN
+F 1 "ISP" H 7483 2615 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal" H 7375 2325 50  0001 C CNN
+F 3 "~" H 7375 2325 50  0001 C CNN
+	1    7375 2325
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Small D34
-U 1 1 6200EFEC
-P 2425 4850
-F 0 "D34" V 2425 4782 50  0000 R CNN
-F 1 "D_Small" V 2380 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2425 4850 50  0001 C CNN
-F 3 "~" V 2425 4850 50  0001 C CNN
-	1    2425 4850
-	0    -1   -1   0   
+U 1 1 62340E2B
+P 8275 2075
+F 0 "D34" V 8229 2143 50  0000 L CNN
+F 1 "D_Small" V 8320 2143 50  0000 L CNN
+F 2 "" V 8275 2075 50  0001 C CNN
+F 3 "~" V 8275 2075 50  0001 C CNN
+	1    8275 2075
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2425 4725 2425 4750
+Text GLabel 7575 2425 2    50   Input ~ 0
+SPI_AVR_MOSI
+Text GLabel 7575 2125 2    50   Input ~ 0
+SPI_AVR_MISO
+Text GLabel 7575 2325 2    50   Input ~ 0
+SPI_AVR_SCK
+Text GLabel 7575 2525 2    50   Input ~ 0
+NRST
 $Comp
-L Switch:SW_Push SW33
-U 1 1 6200EFF3
-P 3150 4725
-F 0 "SW33" H 3150 5010 50  0000 C CNN
-F 1 "E3" H 3150 4919 50  0000 C CNN
-F 2 "" H 3150 4925 50  0001 C CNN
-F 3 "" H 3150 4925 50  0001 C CNN
-	1    3150 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D38
-U 1 1 6200EFF9
-P 2950 4850
-F 0 "D38" V 2950 4782 50  0000 R CNN
-F 1 "D_Small" V 2905 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2950 4850 50  0001 C CNN
-F 3 "~" V 2950 4850 50  0001 C CNN
-	1    2950 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2950 4725 2950 4750
-$Comp
-L Switch:SW_Push SW36
-U 1 1 6200F000
-P 3675 4725
-F 0 "SW36" H 3675 5010 50  0000 C CNN
-F 1 "F3" H 3675 4919 50  0000 C CNN
-F 2 "" H 3675 4925 50  0001 C CNN
-F 3 "" H 3675 4925 50  0001 C CNN
-	1    3675 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D41
-U 1 1 6200F006
-P 3475 4850
-F 0 "D41" V 3475 4782 50  0000 R CNN
-F 1 "D_Small" V 3430 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3475 4850 50  0001 C CNN
-F 3 "~" V 3475 4850 50  0001 C CNN
-	1    3475 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3475 4725 3475 4750
-$Comp
-L Switch:SW_Push SW39
-U 1 1 6200F00D
-P 4200 4725
-F 0 "SW39" H 4200 5010 50  0000 C CNN
-F 1 "G3" H 4200 4919 50  0000 C CNN
-F 2 "" H 4200 4925 50  0001 C CNN
-F 3 "" H 4200 4925 50  0001 C CNN
-	1    4200 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D44
-U 1 1 6200F013
-P 4000 4850
-F 0 "D44" V 4000 4782 50  0000 R CNN
-F 1 "D_Small" V 3955 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4000 4850 50  0001 C CNN
-F 3 "~" V 4000 4850 50  0001 C CNN
-	1    4000 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 4725 4000 4750
-$Comp
-L Switch:SW_Push SW43
-U 1 1 6200F01A
-P 4725 4725
-F 0 "SW43" H 4725 5010 50  0000 C CNN
-F 1 "A4" H 4725 4919 50  0000 C CNN
-F 2 "" H 4725 4925 50  0001 C CNN
-F 3 "" H 4725 4925 50  0001 C CNN
-	1    4725 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D48
-U 1 1 6200F020
-P 4525 4850
-F 0 "D48" V 4525 4782 50  0000 R CNN
-F 1 "D_Small" V 4480 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4525 4850 50  0001 C CNN
-F 3 "~" V 4525 4850 50  0001 C CNN
-	1    4525 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4525 4725 4525 4750
-$Comp
-L Switch:SW_Push SW47
-U 1 1 6200F027
-P 5250 4725
-F 0 "SW47" H 5250 5010 50  0000 C CNN
-F 1 "B4" H 5250 4919 50  0000 C CNN
-F 2 "" H 5250 4925 50  0001 C CNN
-F 3 "" H 5250 4925 50  0001 C CNN
-	1    5250 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D52
-U 1 1 6200F02D
-P 5050 4850
-F 0 "D52" V 5050 4782 50  0000 R CNN
-F 1 "D_Small" V 5005 4782 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5050 4850 50  0001 C CNN
-F 3 "~" V 5050 4850 50  0001 C CNN
-	1    5050 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5050 4725 5050 4750
-$Comp
-L Switch:SW_Push SW27
-U 1 1 6200F034
-P 2100 6125
-F 0 "SW27" H 2100 6410 50  0000 C CNN
-F 1 "C4" H 2100 6319 50  0000 C CNN
-F 2 "" H 2100 6325 50  0001 C CNN
-F 3 "" H 2100 6325 50  0001 C CNN
-	1    2100 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D32
-U 1 1 6200F03A
-P 1900 6250
-F 0 "D32" V 1900 6182 50  0000 R CNN
-F 1 "D_Small" V 1855 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1900 6250 50  0001 C CNN
-F 3 "~" V 1900 6250 50  0001 C CNN
-	1    1900 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1900 6125 1900 6150
-$Comp
-L Switch:SW_Push SW31
-U 1 1 6200F041
-P 2625 6125
-F 0 "SW31" H 2625 6410 50  0000 C CNN
-F 1 "D4" H 2625 6319 50  0000 C CNN
-F 2 "" H 2625 6325 50  0001 C CNN
-F 3 "" H 2625 6325 50  0001 C CNN
-	1    2625 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D36
-U 1 1 6200F047
-P 2425 6250
-F 0 "D36" V 2425 6182 50  0000 R CNN
-F 1 "D_Small" V 2380 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2425 6250 50  0001 C CNN
-F 3 "~" V 2425 6250 50  0001 C CNN
-	1    2425 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2425 6125 2425 6150
-$Comp
-L Switch:SW_Push SW35
-U 1 1 6200F04E
-P 3150 6125
-F 0 "SW35" H 3150 6410 50  0000 C CNN
-F 1 "E4" H 3150 6319 50  0000 C CNN
-F 2 "" H 3150 6325 50  0001 C CNN
-F 3 "" H 3150 6325 50  0001 C CNN
-	1    3150 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D40
-U 1 1 6200F054
-P 2950 6250
-F 0 "D40" V 2950 6182 50  0000 R CNN
-F 1 "D_Small" V 2905 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2950 6250 50  0001 C CNN
-F 3 "~" V 2950 6250 50  0001 C CNN
-	1    2950 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2950 6125 2950 6150
-$Comp
-L Switch:SW_Push SW37
-U 1 1 6200F05B
-P 3675 6125
-F 0 "SW37" H 3675 6410 50  0000 C CNN
-F 1 "F4" H 3675 6319 50  0000 C CNN
-F 2 "" H 3675 6325 50  0001 C CNN
-F 3 "" H 3675 6325 50  0001 C CNN
-	1    3675 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D42
-U 1 1 6200F061
-P 3475 6250
-F 0 "D42" V 3475 6182 50  0000 R CNN
-F 1 "D_Small" V 3430 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3475 6250 50  0001 C CNN
-F 3 "~" V 3475 6250 50  0001 C CNN
-	1    3475 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3475 6125 3475 6150
-$Comp
-L Switch:SW_Push SW41
-U 1 1 6200F068
-P 4200 6125
-F 0 "SW41" H 4200 6410 50  0000 C CNN
-F 1 "G4" H 4200 6319 50  0000 C CNN
-F 2 "" H 4200 6325 50  0001 C CNN
-F 3 "" H 4200 6325 50  0001 C CNN
-	1    4200 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D46
-U 1 1 6200F06E
-P 4000 6250
-F 0 "D46" V 4000 6182 50  0000 R CNN
-F 1 "D_Small" V 3955 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4000 6250 50  0001 C CNN
-F 3 "~" V 4000 6250 50  0001 C CNN
-	1    4000 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 6125 4000 6150
-$Comp
-L Switch:SW_Push SW45
-U 1 1 6200F075
-P 4725 6125
-F 0 "SW45" H 4725 6410 50  0000 C CNN
-F 1 "A5" H 4725 6319 50  0000 C CNN
-F 2 "" H 4725 6325 50  0001 C CNN
-F 3 "" H 4725 6325 50  0001 C CNN
-	1    4725 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D50
-U 1 1 6200F07B
-P 4525 6250
-F 0 "D50" V 4525 6182 50  0000 R CNN
-F 1 "D_Small" V 4480 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4525 6250 50  0001 C CNN
-F 3 "~" V 4525 6250 50  0001 C CNN
-	1    4525 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4525 6125 4525 6150
-$Comp
-L Switch:SW_Push SW49
-U 1 1 6200F082
-P 5250 6125
-F 0 "SW49" H 5250 6410 50  0000 C CNN
-F 1 "B5" H 5250 6319 50  0000 C CNN
-F 2 "" H 5250 6325 50  0001 C CNN
-F 3 "" H 5250 6325 50  0001 C CNN
-	1    5250 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D54
-U 1 1 6200F088
-P 5050 6250
-F 0 "D54" V 5050 6182 50  0000 R CNN
-F 1 "D_Small" V 5005 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5050 6250 50  0001 C CNN
-F 3 "~" V 5050 6250 50  0001 C CNN
-	1    5050 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5050 6125 5050 6150
-$Comp
-L Switch:SW_Push SW50
-U 1 1 6200F08F
-P 5775 6125
-F 0 "SW50" H 5775 6410 50  0000 C CNN
-F 1 "C5" H 5775 6319 50  0000 C CNN
-F 2 "" H 5775 6325 50  0001 C CNN
-F 3 "" H 5775 6325 50  0001 C CNN
-	1    5775 6125
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D55
-U 1 1 6200F095
-P 5575 6250
-F 0 "D55" V 5575 6182 50  0000 R CNN
-F 1 "D_Small" V 5530 6182 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5575 6250 50  0001 C CNN
-F 3 "~" V 5575 6250 50  0001 C CNN
-	1    5575 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5575 6125 5575 6150
-$Comp
-L Switch:SW_Push SW28
-U 1 1 6200F09C
-P 2625 4025
-F 0 "SW28" H 2625 4310 50  0000 C CNN
-F 1 "C#3" H 2625 4219 50  0000 C CNN
-F 2 "" H 2625 4225 50  0001 C CNN
-F 3 "" H 2625 4225 50  0001 C CNN
-	1    2625 4025
+L power:GND #PWR033
+U 1 1 6234F710
+P 7600 2650
+F 0 "#PWR033" H 7600 2400 50  0001 C CNN
+F 1 "GND" H 7605 2477 50  0000 C CNN
+F 2 "" H 7600 2650 50  0001 C CNN
+F 3 "" H 7600 2650 50  0001 C CNN
+	1    7600 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2425 4025 2425 4050
+	7575 2625 7600 2625
+Wire Wire Line
+	7600 2625 7600 2650
+Wire Wire Line
+	7575 2225 8275 2225
+Wire Wire Line
+	8275 2225 8275 2175
 $Comp
-L Switch:SW_Push SW32
-U 1 1 6200F0A3
-P 3150 4025
-F 0 "SW32" H 3150 4310 50  0000 C CNN
-F 1 "D#3" H 3150 4219 50  0000 C CNN
-F 2 "" H 3150 4225 50  0001 C CNN
-F 3 "" H 3150 4225 50  0001 C CNN
-	1    3150 4025
+L power:+3V3 #PWR034
+U 1 1 62355CEB
+P 8275 1950
+F 0 "#PWR034" H 8275 1800 50  0001 C CNN
+F 1 "+3V3" H 8290 2123 50  0000 C CNN
+F 2 "" H 8275 1950 50  0001 C CNN
+F 3 "" H 8275 1950 50  0001 C CNN
+	1    8275 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 4025 2950 4050
+	8275 1950 8275 1975
 $Comp
-L Switch:SW_Push SW38
-U 1 1 6200F0AA
-P 4200 4025
-F 0 "SW38" H 4200 4310 50  0000 C CNN
-F 1 "F#3" H 4200 4219 50  0000 C CNN
-F 2 "" H 4200 4225 50  0001 C CNN
-F 3 "" H 4200 4225 50  0001 C CNN
-	1    4200 4025
+L MCU_Microchip_ATtiny:ATtiny167-XU U6
+U 1 1 62364A8A
+P 8775 4300
+F 0 "U6" H 8146 4346 50  0000 R CNN
+F 1 "ATtiny167-XU" H 8146 4255 50  0000 R CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8775 4300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf" H 8775 4300 50  0001 C CNN
+	1    8775 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4025 4000 4050
+	8775 5400 8775 5425
+Wire Wire Line
+	8775 5425 8825 5425
+Wire Wire Line
+	8825 5425 8825 5450
+Wire Wire Line
+	8875 5400 8875 5425
+Wire Wire Line
+	8875 5425 8825 5425
+Connection ~ 8825 5425
+Wire Wire Line
+	8775 3200 8775 3175
+Wire Wire Line
+	8775 3175 8825 3175
+Wire Wire Line
+	8875 3175 8875 3200
+Wire Wire Line
+	8825 3175 8825 3050
+Connection ~ 8825 3175
+Wire Wire Line
+	8825 3175 8875 3175
 $Comp
-L Switch:SW_Push SW42
-U 1 1 6200F0B1
-P 4725 4025
-F 0 "SW42" H 4725 4310 50  0000 C CNN
-F 1 "G#3" H 4725 4219 50  0000 C CNN
-F 2 "" H 4725 4225 50  0001 C CNN
-F 3 "" H 4725 4225 50  0001 C CNN
-	1    4725 4025
+L device:C_Small C29
+U 1 1 62376D95
+P 9125 2850
+F 0 "C29" V 9075 2950 50  0000 C CNN
+F 1 "0.1uF" V 9175 3000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9125 2850 50  0001 C CNN
+F 3 "~" H 9125 2850 50  0001 C CNN
+	1    9125 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C_Small C30
+U 1 1 623857E4
+P 9125 3050
+F 0 "C30" V 9075 3150 50  0000 C CNN
+F 1 "0.1uF" V 9175 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9125 3050 50  0001 C CNN
+F 3 "~" H 9125 3050 50  0001 C CNN
+	1    9125 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8825 2850 9025 2850
+Connection ~ 8825 2850
+Wire Wire Line
+	8825 2850 8825 2825
+Wire Wire Line
+	8825 3050 9025 3050
+Connection ~ 8825 3050
+Wire Wire Line
+	8825 3050 8825 2850
+$Comp
+L power:GND #PWR037
+U 1 1 623934F2
+P 9475 2975
+F 0 "#PWR037" H 9475 2725 50  0001 C CNN
+F 1 "GND" H 9480 2802 50  0000 C CNN
+F 2 "" H 9475 2975 50  0001 C CNN
+F 3 "" H 9475 2975 50  0001 C CNN
+	1    9475 2975
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:D_Small D47
-U 1 1 6200F0B7
-P 4525 4150
-F 0 "D47" V 4525 4082 50  0000 R CNN
-F 1 "D_Small" V 4480 4082 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4525 4150 50  0001 C CNN
-F 3 "~" V 4525 4150 50  0001 C CNN
-	1    4525 4150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	4525 4025 4525 4050
-$Comp
-L Switch:SW_Push SW46
-U 1 1 6200F0BE
-P 5250 4025
-F 0 "SW46" H 5250 4310 50  0000 C CNN
-F 1 "A#4" H 5250 4219 50  0000 C CNN
-F 2 "" H 5250 4225 50  0001 C CNN
-F 3 "" H 5250 4225 50  0001 C CNN
-	1    5250 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D51
-U 1 1 6200F0C4
-P 5050 4150
-F 0 "D51" V 5050 4082 50  0000 R CNN
-F 1 "D_Small" V 5005 4082 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5050 4150 50  0001 C CNN
-F 3 "~" V 5050 4150 50  0001 C CNN
-	1    5050 4150
-	0    -1   -1   0   
-$EndComp
+	9225 2850 9400 2850
 Wire Wire Line
-	5050 4025 5050 4050
-$Comp
-L Switch:SW_Push SW30
-U 1 1 6200F0CB
-P 2625 5425
-F 0 "SW30" H 2625 5710 50  0000 C CNN
-F 1 "C#4" H 2625 5619 50  0000 C CNN
-F 2 "" H 2625 5625 50  0001 C CNN
-F 3 "" H 2625 5625 50  0001 C CNN
-	1    2625 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D35
-U 1 1 6200F0D1
-P 2425 5550
-F 0 "D35" V 2425 5482 50  0000 R CNN
-F 1 "D_Small" V 2380 5482 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2425 5550 50  0001 C CNN
-F 3 "~" V 2425 5550 50  0001 C CNN
-	1    2425 5550
-	0    -1   -1   0   
-$EndComp
+	9400 2850 9400 2950
 Wire Wire Line
-	2425 5425 2425 5450
-$Comp
-L Switch:SW_Push SW34
-U 1 1 6200F0D8
-P 3150 5425
-F 0 "SW34" H 3150 5710 50  0000 C CNN
-F 1 "D#4" H 3150 5619 50  0000 C CNN
-F 2 "" H 3150 5625 50  0001 C CNN
-F 3 "" H 3150 5625 50  0001 C CNN
-	1    3150 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D39
-U 1 1 6200F0DE
-P 2950 5550
-F 0 "D39" V 2950 5482 50  0000 R CNN
-F 1 "D_Small" V 2905 5482 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2950 5550 50  0001 C CNN
-F 3 "~" V 2950 5550 50  0001 C CNN
-	1    2950 5550
-	0    -1   -1   0   
-$EndComp
+	9400 3050 9225 3050
 Wire Wire Line
-	2950 5425 2950 5450
-$Comp
-L Switch:SW_Push SW40
-U 1 1 6200F0E5
-P 4200 5425
-F 0 "SW40" H 4200 5710 50  0000 C CNN
-F 1 "F#4" H 4200 5619 50  0000 C CNN
-F 2 "" H 4200 5625 50  0001 C CNN
-F 3 "" H 4200 5625 50  0001 C CNN
-	1    4200 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D45
-U 1 1 6200F0EB
-P 4000 5550
-F 0 "D45" V 4000 5482 50  0000 R CNN
-F 1 "D_Small" V 3955 5482 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4000 5550 50  0001 C CNN
-F 3 "~" V 4000 5550 50  0001 C CNN
-	1    4000 5550
-	0    -1   -1   0   
-$EndComp
+	9400 2950 9475 2950
 Wire Wire Line
-	4000 5425 4000 5450
-$Comp
-L Switch:SW_Push SW44
-U 1 1 6200F0F2
-P 4725 5425
-F 0 "SW44" H 4725 5710 50  0000 C CNN
-F 1 "G#4" H 4725 5619 50  0000 C CNN
-F 2 "" H 4725 5625 50  0001 C CNN
-F 3 "" H 4725 5625 50  0001 C CNN
-	1    4725 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D49
-U 1 1 6200F0F8
-P 4525 5550
-F 0 "D49" V 4525 5482 50  0000 R CNN
-F 1 "D_Small" V 4480 5482 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4525 5550 50  0001 C CNN
-F 3 "~" V 4525 5550 50  0001 C CNN
-	1    4525 5550
-	0    -1   -1   0   
-$EndComp
+	9475 2950 9475 2975
+Connection ~ 9400 2950
 Wire Wire Line
-	4525 5425 4525 5450
-$Comp
-L Switch:SW_Push SW48
-U 1 1 6200F0FF
-P 5250 5425
-F 0 "SW48" H 5250 5710 50  0000 C CNN
-F 1 "A#4" H 5250 5619 50  0000 C CNN
-F 2 "" H 5250 5625 50  0001 C CNN
-F 3 "" H 5250 5625 50  0001 C CNN
-	1    5250 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Small D53
-U 1 1 6200F105
-P 5050 5550
-F 0 "D53" V 5050 5482 50  0000 R CNN
-F 1 "D_Small" V 5005 5482 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5050 5550 50  0001 C CNN
-F 3 "~" V 5050 5550 50  0001 C CNN
-	1    5050 5550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5050 5425 5050 5450
-Text GLabel 1575 4950 0    50   Input ~ 0
-row0
-Wire Wire Line
-	1575 4950 1900 4950
-Connection ~ 1900 4950
-Connection ~ 2425 4950
-Connection ~ 2950 4950
-Wire Wire Line
-	2950 4950 3475 4950
-Connection ~ 3475 4950
-Wire Wire Line
-	3475 4950 4000 4950
-Connection ~ 4000 4950
-Wire Wire Line
-	4000 4950 4525 4950
-Connection ~ 4525 4950
-Wire Wire Line
-	4525 4950 5050 4950
-Wire Wire Line
-	1900 6350 2425 6350
-Connection ~ 2425 6350
-Wire Wire Line
-	2425 6350 2950 6350
-Connection ~ 2950 6350
-Wire Wire Line
-	2950 6350 3475 6350
-Connection ~ 3475 6350
-Wire Wire Line
-	3475 6350 4000 6350
-Connection ~ 4000 6350
-Wire Wire Line
-	4000 6350 4525 6350
-Connection ~ 4525 6350
-Wire Wire Line
-	4525 6350 5050 6350
-Connection ~ 5050 6350
-Wire Wire Line
-	5050 6350 5575 6350
-Text GLabel 1575 4250 0    50   Input ~ 0
-row1
-Wire Wire Line
-	1575 4250 2425 4250
-Connection ~ 2425 4250
-Wire Wire Line
-	2425 4250 2950 4250
-Connection ~ 2950 4250
-Wire Wire Line
-	2950 4250 4000 4250
-Connection ~ 4000 4250
-Wire Wire Line
-	4000 4250 4525 4250
-Connection ~ 4525 4250
-Wire Wire Line
-	4525 4250 5050 4250
-Wire Wire Line
-	2425 5650 2950 5650
-Connection ~ 2950 5650
-Wire Wire Line
-	2950 5650 4000 5650
-Connection ~ 4000 5650
-Wire Wire Line
-	4000 5650 4525 5650
-Connection ~ 4525 5650
-Wire Wire Line
-	4525 5650 5050 5650
-Text GLabel 2300 3675 1    50   Input ~ 0
-col0
-Text GLabel 2825 3675 1    50   Input ~ 0
-col1
-Wire Wire Line
-	2825 3675 2825 4025
-Connection ~ 2825 4025
-Wire Wire Line
-	2825 4025 2825 4725
-Wire Wire Line
-	2300 3675 2300 4725
-Wire Wire Line
-	1900 4950 2425 4950
-Wire Wire Line
-	2425 4950 2950 4950
-Text GLabel 4400 3675 1    50   Input ~ 0
-col4
-Text GLabel 4925 3675 1    50   Input ~ 0
-col5
-Text GLabel 5450 3675 1    50   Input ~ 0
-col6
-Text GLabel 5975 5900 1    50   Input ~ 0
-col7
-Text GLabel 3350 3675 1    50   Input ~ 0
-col2
-Text GLabel 3875 3675 1    50   Input ~ 0
-col3
-Connection ~ 2825 5425
-Wire Wire Line
-	2825 5425 2825 6125
-Connection ~ 3350 5425
-Wire Wire Line
-	3350 5425 3350 6125
-Wire Wire Line
-	3350 3675 3350 4025
-Connection ~ 3350 4025
-Wire Wire Line
-	3350 4025 3350 4725
-Wire Wire Line
-	3875 3675 3875 4725
-Wire Wire Line
-	4400 3675 4400 4025
-Connection ~ 4400 4025
-Wire Wire Line
-	4400 4025 4400 4725
-Wire Wire Line
-	4925 3675 4925 4025
-Connection ~ 4925 4025
-Wire Wire Line
-	4925 4025 4925 4725
-Wire Wire Line
-	5450 3675 5450 4025
-Connection ~ 5450 4025
-Wire Wire Line
-	5450 4025 5450 4725
-Connection ~ 4400 5425
-Wire Wire Line
-	4400 5425 4400 6125
-Connection ~ 4925 5425
-Wire Wire Line
-	4925 5425 4925 6125
-Connection ~ 5450 5425
-Wire Wire Line
-	5450 5425 5450 6125
-Wire Wire Line
-	5975 5900 5975 6125
-$Comp
-L device:D_Small D43
-U 1 1 6200F170
-P 4000 4150
-F 0 "D43" V 4000 4082 50  0000 R CNN
-F 1 "D_Small" V 3955 4082 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4000 4150 50  0001 C CNN
-F 3 "~" V 4000 4150 50  0001 C CNN
-	1    4000 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L device:D_Small D37
-U 1 1 6200F176
-P 2950 4150
-F 0 "D37" V 2950 4082 50  0000 R CNN
-F 1 "D_Small" V 2905 4082 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2950 4150 50  0001 C CNN
-F 3 "~" V 2950 4150 50  0001 C CNN
-	1    2950 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L device:D_Small D33
-U 1 1 6200F17C
-P 2425 4150
-F 0 "D33" V 2425 4082 50  0000 R CNN
-F 1 "D_Small" V 2380 4082 50  0001 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2425 4150 50  0001 C CNN
-F 3 "~" V 2425 4150 50  0001 C CNN
-	1    2425 4150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2300 4725 2300 6125
-Connection ~ 2300 4725
-Wire Wire Line
-	2825 4725 2825 5425
-Connection ~ 2825 4725
-Wire Wire Line
-	3350 4725 3350 5425
-Connection ~ 3350 4725
-Wire Wire Line
-	3875 4725 3875 6125
-Connection ~ 3875 4725
-Wire Wire Line
-	4400 4725 4400 5425
-Connection ~ 4400 4725
-Wire Wire Line
-	4925 4725 4925 5425
-Connection ~ 4925 4725
-Wire Wire Line
-	5450 4725 5450 5425
-Connection ~ 5450 4725
-Connection ~ 2425 5650
-Wire Wire Line
-	1575 5650 2425 5650
-Connection ~ 1900 6350
-Wire Wire Line
-	1575 6350 1900 6350
-Text GLabel 1575 6350 0    50   Input ~ 0
-row0
-Text GLabel 1575 5650 0    50   Input ~ 0
-row1
+	9400 2950 9400 3050
 $EndSCHEMATC
