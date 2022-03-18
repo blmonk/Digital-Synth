@@ -834,7 +834,7 @@ U 1 1 6233FDFE
 P 7375 2325
 F 0 "J8" H 7483 2706 50  0000 C CNN
 F 1 "ISP" H 7483 2615 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal" H 7375 2325 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 7375 2325 50  0001 C CNN
 F 3 "~" H 7375 2325 50  0001 C CNN
 	1    7375 2325
 	1    0    0    -1  

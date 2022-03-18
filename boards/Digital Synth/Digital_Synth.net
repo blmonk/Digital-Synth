@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Bryan\\Documents\\Digital Synth\\Digital-Synth\\boards\\Digital Synth\\Digital_Synth.sch")
-    (date "3/16/2022 12:53:02 PM")
+    (date "3/17/2022 6:53:32 PM")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -185,6 +185,7 @@
       (tstamp 625B1D5F))
     (comp (ref J6)
       (value JTAG)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x04_Male) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -782,7 +783,7 @@
       (tstamp 6210FE5D))
     (comp (ref J8)
       (value ISP)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x06_Male) (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /Keyboard/) (tstamps /6209587E/))
