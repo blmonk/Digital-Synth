@@ -1,4 +1,4 @@
-16967804813628144
+16971101666800212
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44422,12 +44422,19 @@ AG12864E Graphics Display 128x64 Ampire
 24
 20
 Display
+Adafruit_2.4in
+
+
+0
+40
+40
+Display
 Adafruit_2in
 
 
 0
-0
-0
+11
+11
 Display
 Adafruit_SSD1306
 Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
@@ -62415,6 +62422,13 @@ Potentiometer_SMD
 Potentiometer_Vishay_TS53YL_Vertical
 Potentiometer, vertical, Vishay TS53YL, https://www.vishay.com/docs/51008/ts53.pdf
 Potentiometer vertical Vishay TS53YL
+0
+3
+3
+Potentiometer_THT
+Hiletgo
+
+
 0
 3
 3
