@@ -13,14 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2700 4750 0    50   Input ~ 0
+Text GLabel 2800 4750 0    50   Input ~ 0
 SD
-Text GLabel 2700 4850 0    50   Input ~ 0
+Text GLabel 2800 4850 0    50   Input ~ 0
 LRCLK
-Text GLabel 2700 4650 0    50   Input ~ 0
+Text GLabel 2800 4650 0    50   Input ~ 0
 BCK
-Text GLabel 2700 4550 0    50   Input ~ 0
-MCLK
 Wire Wire Line
 	6525 5575 6525 5725
 Connection ~ 6525 5575
@@ -544,14 +542,6 @@ F 3 "" H 2225 4950 50  0001 C CNN
 	1    2225 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 4850 2800 4850
-Wire Wire Line
-	2700 4750 2800 4750
-Wire Wire Line
-	2700 4650 2800 4650
-Wire Wire Line
-	2700 4550 2800 4550
 $Comp
 L Synth_Lib:PCM5101A U?
 U 1 1 61FE4237
@@ -975,20 +965,22 @@ F 3 "" H 2800 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2800 4450 2225 4450
+	2800 4450 2350 4450
 $Comp
 L power:GND #PWR?
 U 1 1 6256264A
-P 2225 4475
+P 2350 4500
 AR Path="/6256264A" Ref="#PWR?"  Part="1" 
 AR Path="/61FCD2FD/6256264A" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 2225 4225 50  0001 C CNN
-F 1 "GND" H 2230 4302 50  0000 C CNN
-F 2 "" H 2225 4475 50  0001 C CNN
-F 3 "" H 2225 4475 50  0001 C CNN
-	1    2225 4475
+F 0 "#PWR0116" H 2350 4250 50  0001 C CNN
+F 1 "GND" H 2355 4327 50  0000 C CNN
+F 2 "" H 2350 4500 50  0001 C CNN
+F 3 "" H 2350 4500 50  0001 C CNN
+	1    2350 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2225 4450 2225 4475
+	2350 4450 2350 4500
+Text GLabel 2800 4550 0    50   Input ~ 0
+MCK
 $EndSCHEMATC

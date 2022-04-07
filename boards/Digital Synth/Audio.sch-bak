@@ -13,14 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2700 4750 0    50   Input ~ 0
+Text GLabel 2800 4750 0    50   Input ~ 0
 SD
-Text GLabel 2700 4850 0    50   Input ~ 0
+Text GLabel 2800 4850 0    50   Input ~ 0
 LRCLK
-Text GLabel 2700 4650 0    50   Input ~ 0
+Text GLabel 2800 4650 0    50   Input ~ 0
 BCK
-Text GLabel 2700 4550 0    50   Input ~ 0
-MCLK
 Wire Wire Line
 	6525 5575 6525 5725
 Connection ~ 6525 5575
@@ -140,7 +138,7 @@ P 6750 5475
 AR Path="/61FE4323" Ref="J?"  Part="1" 
 AR Path="/61FCD2FD/61FE4323" Ref="J2"  Part="1" 
 F 0 "J2" H 6470 5408 50  0000 R CNN
-F 1 "AudioJack3" H 6470 5499 50  0000 R CNN
+F 1 "ROUT" H 6470 5499 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 6750 5475 50  0001 C CNN
 F 3 "~" H 6750 5475 50  0001 C CNN
 	1    6750 5475
@@ -153,7 +151,7 @@ P 6750 4850
 AR Path="/61FE431D" Ref="J?"  Part="1" 
 AR Path="/61FCD2FD/61FE431D" Ref="J1"  Part="1" 
 F 0 "J1" H 6470 4783 50  0000 R CNN
-F 1 "AudioJack3" H 6470 4874 50  0000 R CNN
+F 1 "LOUT" H 6470 4874 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 6750 4850 50  0001 C CNN
 F 3 "~" H 6750 4850 50  0001 C CNN
 	1    6750 4850
@@ -544,14 +542,6 @@ F 3 "" H 2225 4950 50  0001 C CNN
 	1    2225 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 4850 2800 4850
-Wire Wire Line
-	2700 4750 2800 4750
-Wire Wire Line
-	2700 4650 2800 4650
-Wire Wire Line
-	2700 4550 2800 4550
 $Comp
 L Synth_Lib:PCM5101A U?
 U 1 1 61FE4237
@@ -867,7 +857,7 @@ L Connector:AudioJack3 J3
 U 1 1 6265CE93
 P 2875 2375
 F 0 "J3" H 2857 2700 50  0000 C CNN
-F 1 "MIDI Over TRS" H 2857 2609 50  0000 C CNN
+F 1 "MIDI IN" H 2857 2609 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 2875 2375 50  0001 C CNN
 F 3 "~" H 2875 2375 50  0001 C CNN
 	1    2875 2375
@@ -935,7 +925,7 @@ L Connector:AudioJack3 J4
 U 1 1 626D7E9E
 P 9025 2500
 F 0 "J4" H 8975 2725 50  0000 C CNN
-F 1 "MIDI Over TRS" H 8950 2250 50  0000 C CNN
+F 1 "MIDI OUT" H 8950 2250 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 9025 2500 50  0001 C CNN
 F 3 "~" H 9025 2500 50  0001 C CNN
 	1    9025 2500
@@ -975,20 +965,22 @@ F 3 "" H 2800 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2800 4450 2225 4450
+	2800 4450 2350 4450
 $Comp
 L power:GND #PWR?
 U 1 1 6256264A
-P 2225 4475
+P 2350 4500
 AR Path="/6256264A" Ref="#PWR?"  Part="1" 
 AR Path="/61FCD2FD/6256264A" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 2225 4225 50  0001 C CNN
-F 1 "GND" H 2230 4302 50  0000 C CNN
-F 2 "" H 2225 4475 50  0001 C CNN
-F 3 "" H 2225 4475 50  0001 C CNN
-	1    2225 4475
+F 0 "#PWR0116" H 2350 4250 50  0001 C CNN
+F 1 "GND" H 2355 4327 50  0000 C CNN
+F 2 "" H 2350 4500 50  0001 C CNN
+F 3 "" H 2350 4500 50  0001 C CNN
+	1    2350 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2225 4450 2225 4475
+	2350 4450 2350 4500
+Text GLabel 2800 4550 0    50   Input ~ 0
+MCK
 $EndSCHEMATC

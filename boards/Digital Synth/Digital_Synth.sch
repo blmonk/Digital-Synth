@@ -255,7 +255,7 @@ F 3 "" H 4350 2700 50  0001 C CNN
 $EndComp
 Text Notes 4875 5175 2    50   ~ 0
 I2S_CK
-Text Notes 6700 3975 0    50   ~ 0
+Text Notes 6825 4000 0    50   ~ 0
 I2S_WS
 Text Notes 4525 4875 0    50   ~ 0
 I2S_MCK
@@ -263,8 +263,6 @@ Text GLabel 5125 4850 0    50   Input ~ 0
 MCK
 Text GLabel 5125 5150 0    50   Input ~ 0
 BCK
-Text GLabel 6525 3950 2    50   Input ~ 0
-WS
 $Comp
 L power:+5V #PWR07
 U 1 1 62302A1F
@@ -837,13 +835,13 @@ Text GLabel 5125 4350 0    50   Input ~ 0
 B8
 Text GLabel 5125 4450 0    50   Input ~ 0
 B9
-Text GLabel 6525 2450 2    50   Input ~ 0
-RV1
-Text GLabel 6525 2550 2    50   Input ~ 0
-RV2
-Text GLabel 6525 2650 2    50   Input ~ 0
-RV3
 Text GLabel 6525 2750 2    50   Input ~ 0
+RV1
+Text GLabel 6525 2650 2    50   Input ~ 0
+RV2
+Text GLabel 6525 2550 2    50   Input ~ 0
+RV3
+Text GLabel 6525 2450 2    50   Input ~ 0
 RV4
 Text GLabel 6525 2850 2    50   Input ~ 0
 RV5
@@ -1034,4 +1032,6 @@ $EndComp
 Connection ~ 4725 2650
 Wire Wire Line
 	4725 2650 5125 2650
+Text GLabel 6525 3950 2    50   Input ~ 0
+LRCLK
 $EndSCHEMATC
